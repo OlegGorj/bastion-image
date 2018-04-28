@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/739128f2994b4c52a103258a52c2c10e)](https://app.codacy.com/app/oleggorj/bastion-image?utm_source=github.com&utm_medium=referral&utm_content=OlegGorj/bastion-image&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/oleggorj/bastion-image.svg)](https://travis-ci.org/oleggorj/bastion-image)
 [![Docker Pulls](https://img.shields.io/docker/pulls/oleggorj/bastion-image.svg)](https://hub.docker.com/r/oleggorj/bastion-image)
 [![GitHub Issues](https://img.shields.io/github/issues/oleggorj/bastion-image.svg)](https://github.com/oleggorj/bastion-image/issues)
