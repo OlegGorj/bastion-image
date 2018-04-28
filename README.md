@@ -9,6 +9,7 @@
 
 Project to build secured and hardened Bastion Docker image
 
+---
 
 ## Usage
 
@@ -37,6 +38,7 @@ In another terminal you should be able to run:
 ```bash
 $ ssh root@localhost -p 1234
 ```
+
 The first time you connect, you'll be asked to setup your MFA device, then, each next time you connect, you'll be prompted to enter your MFA token.
 
 
