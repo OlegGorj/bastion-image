@@ -10,7 +10,7 @@ RUN apk --update add linux-pam libssl1.0 shadow ca-certificates openssl && \
 
 ADD patches/ /usr/src/patches/
 
-# Building OpenSSH on alpine: http://git.alpinelinux.org/cgit/aports/tree/main/openssh/APKBUILD 
+# Building OpenSSH on alpine: http://git.alpinelinux.org/cgit/aports/tree/main/openssh/APKBUILD
 
 RUN apk --update add --virtual .build-deps build-base automake autoconf libtool git linux-pam-dev openssl-dev wget && \
     mkdir -p /usr/src && \
@@ -20,7 +20,7 @@ RUN apk --update add --virtual .build-deps build-base automake autoconf libtool 
       cd duo_unix-* && \
       ./configure --with-pam --prefix=/usr && \
       make && \
-      make install && \ 
+      make install && \
       cd .. && \
       rm -rf duo_unix-* && \
       rm -f duo_unix-latest.tar.gz \
@@ -92,7 +92,7 @@ ENV SSH_AUDIT_ENABLED=true
 # Enable Rate Limiting
 ENV RATE_LIMIT_ENABLED=true
 
-# Tolerate 5 consecutive fairues    
+# Tolerate 5 consecutive fairues
 ENV RATE_LIMIT_MAX_FAILURES=5
 
 # Lock accounts out for 300 seconds (5 minutes) after repeated failures
