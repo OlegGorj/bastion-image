@@ -8,7 +8,7 @@ run:
 	docker run -it -p1234:22 \
 		-v ~/.ssh/:/root/.ssh/ \
 		--env-file=../.secrets \
-		--env-file=../.duo \
 		-e MFA_PROVIDER=google-authenticator \
 		-e SLACK_ENABLED=true \
 		--entrypoint=/bin/bash $(DOCKER_IMAGE_NAME)
+	sudo docker image push ${DOCKER_IMAGE_NAME}

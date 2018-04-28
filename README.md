@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/oleggorj/bastion-image.svg)](https://travis-ci.org/oleggorj/bastion-image)
+[![Build Status](https://travis-ci.org/OlegGorj/bastion-image.svg?branch=master)](https://travis-ci.org/OlegGorj/bastion-image)
 [![Docker Pulls](https://img.shields.io/docker/pulls/oleggorj/bastion-image.svg)](https://hub.docker.com/r/oleggorj/bastion-image)
 [![GitHub Issues](https://img.shields.io/github/issues/oleggorj/bastion-image.svg)](https://github.com/oleggorj/bastion-image/issues)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/oleggorj/bastion-image.svg)](http://isitmaintained.com/project/oleggorj/bastion-image "Average time to resolve an issue")
@@ -8,6 +8,7 @@
 
 Project to build secured and hardened Bastion Docker image
 
+---
 
 ## Usage
 
@@ -36,6 +37,7 @@ In another terminal you should be able to run:
 ```bash
 $ ssh root@localhost -p 1234
 ```
+
 The first time you connect, you'll be asked to setup your MFA device, then, each next time you connect, you'll be prompted to enter your MFA token.
 
 
