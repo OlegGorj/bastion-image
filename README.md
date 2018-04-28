@@ -1,5 +1,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/739128f2994b4c52a103258a52c2c10e)](https://app.codacy.com/app/OlegGorJ/bastion-image?utm_source=github.com&utm_medium=referral&utm_content=OlegGorJ/bastion-image&utm_campaign=badger)
-[![Build Status](https://travis-ci.org/OlegGorJ/bastion-image.svg)](https://travis-ci.org/OlegGorJ/bastion-image)
+[![Build Status](https://travis-ci.org/OlegGorj/bastion-image.svg?branch=master)](https://travis-ci.org/OlegGorj/bastion-image)
 [![Docker Pulls](https://img.shields.io/docker/pulls/OlegGorJ/bastion-image.svg)](https://hub.docker.com/r/OlegGorJ/bastion-image)
 [![GitHub Issues](https://img.shields.io/github/issues/OlegGorJ/bastion-image.svg)](https://github.com/OlegGorJ/bastion-image/issues)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/OlegGorJ/bastion-image.svg)](http://isitmaintained.com/project/OlegGorJ/bastion-image "Average time to resolve an issue")
